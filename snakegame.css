@@ -1,0 +1,101 @@
+body {
+    background-color: skyblue;
+    text-align: center;
+    font-family: 'Dancing Script';
+  }
+  
+  #gameContainer {
+    width: 30vw;
+    height: 30vw;
+    margin: 2vw auto;
+    background-color: lightgreen;
+    border: solid 5px darkgreen;
+    border-radius: 20px;
+  
+    -webkit-box-shadow: 0px 0px 20px 3px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: 0px 0px 20px 3px rgba(0, 0, 0, 0.6);
+    box-shadow: 0px 0px 20px 3px rgba(0, 0, 0, 0.6);
+  }
+  
+  .gameBoardPixel {
+    width: 1vw;
+    height: 1vw;
+    border-radius: 5px;
+    float: left;
+  }
+  .snakeBodyPixel {
+    background-color: #573000;
+  }
+  .food {
+    background-color: red;
+  }
+  #scoreContainer {
+    width: 30vw;
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+  }
+  
+  .scoreBoard {
+    border-radius: 20px;
+    border: solid 5px darkgreen;
+    color: green;
+    background-color: lightgreen;
+    display: inline-block;
+    padding: 1vw;
+    width: 40%;
+  
+    -webkit-box-shadow: 0px 0px 20px 3px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: 0px 0px 20px 3px rgba(0, 0, 0, 0.6);
+    box-shadow: 0px 0px 20px 3px rgba(0, 0, 0, 0.6);
+  }
+
+  #onScreenControllers {
+    display: none;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    #gameContainer {
+      width: 80vw;
+      height: 80vw;
+    }
+  
+    .gameBoardPixel {
+      width: 2vw;
+      height: 2vw;
+    }
+  
+    #scoreContainer {
+      width: 80vw;
+    }
+  
+    #onScreenControllers {
+      width: 80vw;
+      margin: 5vw auto;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+    }
+  
+    #onScreenControllers > div {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    #onScreenControllers button {
+      background-color: transparent;
+      height: 20vw;
+      width: 20vw;
+      font-size: 10vw;
+      border: none;
+    }
+  
+    #onScreenControllers button:focus {
+      outline: none;
+    }
+  
+    #onScreenControllers button:active {
+      background-color: lightskyblue;
+    }
+  }
+
