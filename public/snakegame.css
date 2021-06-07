@@ -4,10 +4,6 @@ body {
     font-family: 'Dancing Script';
   }
  
-#leftButton {
-    background-color: darkgreen;
-}
-
   #gameContainer {
     width: 40vw;
     height: 40vw;
@@ -99,7 +95,7 @@ body {
     }
   
     #onScreenControllers button:active {
-      background-color: lightskyblue;
+      background-color: darkgreen;
     }
   }
 
