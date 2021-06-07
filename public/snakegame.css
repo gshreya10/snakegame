@@ -30,7 +30,7 @@ body {
     background-color: red;
   }
   #scoreContainer {
-    width: 30vw;
+    width: 40vw;
     display: flex;
     margin: auto;
     justify-content: space-around;
