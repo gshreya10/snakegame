@@ -3,9 +3,9 @@ body {
     text-align: center;
     font-family: 'Dancing Script';
   }
-  
-button {
-    color: darkgreen;
+ 
+.b {
+    background-color: darkgreen;
 }
 
   #gameContainer {
