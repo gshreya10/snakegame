@@ -4,6 +4,10 @@ body {
     font-family: 'Dancing Script';
   }
   
+button {
+    color: darkgreen;
+}
+
   #gameContainer {
     width: 40vw;
     height: 40vw;
