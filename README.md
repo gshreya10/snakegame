@@ -1,4 +1,6 @@
-SNAKE BITE GAME - https://snakebite-game.herokuapp.com/
+Game URL : https://snakebite-game.herokuapp.com/
+
+SNAKE BITE GAME is a replica of the traditional Snake Game, created using JavaScript, HTML & CSS. 
 
 PC View - 
 ![Screenshot (156)](https://user-images.githubusercontent.com/55207479/121727061-05f4b700-cb09-11eb-9660-6505f1010e4a.png)
